@@ -1,0 +1,10 @@
+{
+    "appName": {
+        "message": "Taobao Currency Convertor",
+        "description": ""
+    },
+    "appDesc": {
+        "message": "Converts currency at Taobao.com to yours",
+        "description": ""
+    }
+}
