@@ -1,0 +1,28 @@
+{
+
+  "name": "__MSG_appName__",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "__MSG_appDesc__",
+
+  "content_scripts": [{
+    "matches": ["http://taobao.com/*","http://www.taobao.com/*", "http://s.taobao.com/*", "http://list.taobao.com/*"],
+
+    "js": ["js/jquery-1.9.1.min.js", "js/money.min.js", "js/accounting.min.js", "js/app.js"],
+
+    "run_at": "document_end"
+  }],
+
+  "web_accessible_resources": [
+    "js/jquery-1.9.1.min.js", "js/money.min.js", "js/accounting.min.js"
+  ],
+
+  "permissions" : [
+    "http://*/*",
+    "https://*/*",
+    "storage"
+  ],
+
+  "options_page": "options.html",
+  "default_locale":"ru"
+}

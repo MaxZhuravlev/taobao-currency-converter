@@ -1,0 +1,10 @@
+body,html{
+  height:100%;
+}
+
+
+section {
+  background-image: -webkit-gradient(radial, 50% 400, 25, 50% 50%, 755, from(white), to(#597BA5));
+  height: 100%;
+  overflow: hidden;
+}
